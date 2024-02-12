@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.bottom-nav > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn {
+    background-color:#f89646;
+    border:none;
+    color:#fff;
+}
+
+.contact-btn:hover {
+    border: 1px solid #f89646;
+    background-color: transparent;
+    color: inherit;
+}
+
+.about-btn {
+    background-color: #6bb7be;
+    border: none;
+    color: white;
+}
+
+.about-btn:hover {
+    border: 1px solid #6bb7be;
+    background-color: transparent;
+    color: inherit;
+}
+
+.second-content {
+    margin-top: 10%;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.products div {
+    display: grid;
+}
+
+.product {
+    display: block;
+}
+
+.product img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shrink img {
+    width: 60%;
+    margin-top: 5%;
+
+}
+
+.price div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about, .blogs {
+    margin-top: 10%;
+}
+
+.about-us .btn {
+    background-color: #6bb7be;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+}
+
+.about-us .btn:hover {
+    border: 1px solid #6bb7be;
+    background-color: transparent;
+    color: inherit;
+}
+
+.blog {
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.contact {
+    margin-top: 10%;
+}
+
+.frame {
+    width: 100%;
+}
+
+.user-input input, .user-input textarea{
+    display: block;
+    line-height: 2;
+    margin-top: 20px;
+    width: 100%; 
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    resize: none;
+}
+
+.footer {
+    background-color: #000;
+    height: 86vh;
+    margin-top: 10%;
+
+}
+
+@media screen and (max-width:992px) {
+    .footer {
+        height: 100%;
+    }
+}
+
+.top-footer {
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+}
+
+.reach {
+    margin-top: 10%;
+}
+
+.contact-icon, .contact-number, .message-icon, .email-address, .mark-icon, .location  {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.reach:hover span, .reach:hover a {
+    color:#f89646;
+}
+
+.bottom-footer {
+    margin-top: 5%;
+}
+
+.footer-links {
+    color: #fff;
+    display: block;
+}
+
+.footer-links .quick-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.footer-links a:hover {
+    color: #f89646;
+}
+
+.subscribe {
+    color: white;
+    display: inline-block;
+}
+
+.subscribe input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.subscribe .btn {
+    padding: 10px 40px;
+}
